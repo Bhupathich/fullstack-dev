@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+#box{
+    height: 150px;
+    width: 200px;
+    margin-top: 50px;
+    background-color:bisque;
+    border-radius: 5px;
+}
+button{
+    margin: 20px;
+}
+button:active{
+    scale:0.59;
+}
+
+#fb{
+    width: 250px;
+    height:500px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+#fb img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#colorButton{
+    width:250px;
+    height:200px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+#ipl{
+    width:350px;
+    height:200px;
+    border: 2px solid black;
+}
